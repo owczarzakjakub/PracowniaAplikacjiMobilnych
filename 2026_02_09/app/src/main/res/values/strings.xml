@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">2026_02_09</string>
+    <string name="logo_desc">Logo ZSK</string>
+    <string name="headingMain">Zglos brak mundurka</string>
+    <string name="headingReported">Zapisano uwage</string>
+    <string name="name">Imie</string>
+    <string name="lastname">Nazwisko</string>
+    <string name="className">Klasa</string>
+    <string name="button">Zaisz uwage</string>
+    <string name="buttonReported">Dodaj nowa uwage</string>
+</resources>
