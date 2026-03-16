@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._2025_10_16">
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".loggedActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">2025_10_16</string>
+    <string name="welcome">Witamy w aplikacji</string>
+    <string name="loggedAs">Zalogowano jako</string>
+    <string name="logOut">Wyloguj</string>
+    <string name="logdIn">Zatwierdz</string>
+</resources>

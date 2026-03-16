@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Podaj imie:"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:background="@color/cardview_dark_background"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Imie"
+        android:layout_margin="10dp"
+        android:id="@+id/nameInput"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Podaj nazwisko:"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Nazwisko"
+        android:layout_margin="10dp"
+        android:id="@+id/lastNameInput"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Podaj email: "
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:id="@+id/emailInput"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:text="Potwierdz"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+    
+
+
+</LinearLayout>
