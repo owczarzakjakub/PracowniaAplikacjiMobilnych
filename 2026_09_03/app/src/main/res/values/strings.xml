@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2026_09_03</string>
+    <string name="title">Gra w kosci. Autor: 000000000</string>
+    <string name="throwButton">RZUC KOSCMI</string>
+    <string name="throwResult">Wynik tego losowania to: </string>
+    <string name="result">Wynik tej gry to</string>
+    <string name="resetButton">RESETUJ WYNIK</string>
+</resources>
