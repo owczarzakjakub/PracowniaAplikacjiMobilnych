@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBlue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titleTv"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autorTv"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pralka"
+            android:layout_margin="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/washingMachineTv"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/washingNumberInput"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@color/skyBlue"
+                android:hint="@string/hint1Ev"
+                android:inputType="number"
+                android:textColorHint="@color/navy"/>
+
+            <Button
+
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submitButton"
+                android:backgroundTint="@color/royalBlue"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/washingStatusTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/washingStatus"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/odkurzacz"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vacuumTv"
+                android:textSize="25dp"
+                />
+            <Button
+                android:id="@+id/powerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/powerButton"
+                android:backgroundTint="@color/royalBlue"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/vacuumStatusTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vacuumStatusTv"/>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/batteryStatus"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

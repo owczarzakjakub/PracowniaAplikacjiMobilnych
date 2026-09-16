@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">2026_09_16</string>
+    <string name="titleTv">Urzadzenia domowe</string>
+    <string name="autorTv">autor:00000000000000000</string>
+    <string name="washingMachineTv">Pralka</string>
+    <string name="hint1Ev">Podaj nr prania 1..12</string>
+    <string name="submitButton">Zatwierdz</string>
+    <string name="vacuumTv">Odkurzacz</string>
+    <string name="powerButton">Wlacz</string>
+    <string name="vacuumStatusTv">Odkurzacz wylaczony</string>
+    <string name="batteryStatus">Status: naładowany</string>
+    <string name="washingStatus">Numer prania: nie podano</string>
+</resources>
