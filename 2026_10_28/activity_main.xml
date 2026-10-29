@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5F9EA0">
+    <TextView
+        android:text="Podaj wartosc klucza: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FAEBD7"
+        android:textSize="25dp"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:id="@+id/keyView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"/>
+    <TextView
+        android:text="Podaj tekst: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#FAEBD7"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:id="@+id/preCodeText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        />
+    <Button
+        android:id="@+id/code"
+        android:text="Zaszyfruj"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Tekst zaszyfrowany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FAEBD7"
+        android:textSize="25dp"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/saveToFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Zapisz szyfr do pliku"/>
+</LinearLayout>
